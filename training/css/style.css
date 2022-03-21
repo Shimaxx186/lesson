@@ -27,7 +27,7 @@ header {
 .photo {
   width: 120px;
   height: 120px;
-  /* 下記、角丸をしてくれる */
+  /* 下記、角丸にしてくれる */
   border-radius: 50%;
   margin-bottom: 10px;
 }
@@ -73,3 +73,28 @@ h2 {
   font-size: 14px;
   font-weight: bold;
 }
+
+.works_box {
+  max-width: 450px;
+  margin: 40px auto;
+}
+
+.works_image {
+  width: 100%;
+  height: auto;
+}
+
+.works_box h3 {
+  margin-top: 10px;
+}
+
+.works_box p {
+  margin-top: 7px;
+}
+
+/* footer */
+ footer {
+   background-color: #000000;
+   color: #fff;
+   text-align: center;
+ }
